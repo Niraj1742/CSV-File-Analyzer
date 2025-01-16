@@ -1,0 +1,133 @@
+/* Base Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #7f7fd5, #86a8e7, #91eae4);
+    color: #333; /* Changed text color for better readability */
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.8rem;
+    margin-top: 20px;
+    color: #333; /* Dark text color for better contrast */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Subtle shadow for emphasis */
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #444; /* Slightly darker text for readability */
+  }
+  
+  /* Container Styling */
+  .container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* File Input Styling */
+  .file-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .file-input input[type="file"] {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px dashed #4caf50;
+    border-radius: 10px;
+    background: #f9f9f9;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .file-input input[type="file"]:hover {
+    background: #e3f2fd;
+    border-color: #2196f3;
+  }
+  
+  /* Output Section */
+  #output {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    color: #333;
+  }
+  
+  /* Summary Cards */
+  .summary {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .summary-item {
+    flex: 1 1 calc(33% - 20px);
+    background: linear-gradient(to bottom, #4caf50, #2e7d32);
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .summary-item h3 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+  }
+  
+  .summary-item p {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  
+  /* Table Styling */
+  .table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0;
+  }
+  
+  table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  table tr:nth-child(even) {
+    background: #f2f2f2;
+  }
+  
+  .table-container::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .table-container::-webkit-scrollbar-thumb {
+    background-color: #4caf50;
+    border-radius: 5px;
+  }
+  
